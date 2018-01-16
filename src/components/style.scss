@@ -1,0 +1,31 @@
+@keyframes rotation {
+  0% {
+    transform:rotate(0deg);
+  }
+
+  50% {
+    transform:rotate(180deg);
+  }
+  100% {
+    transform: translateX(360deg);
+  }
+}
+
+.react-rotate-disc{
+  display: inline-block;
+  -webkit-transform: rotate(360deg);
+
+
+  &[data-rotation=true]{
+    animation-fill-mode: both;
+    animation: rotation 3s linear infinite;
+  }
+  &[data-rotation=false]{
+  }
+
+  &-icon{
+    vertical-align: top;
+    width:36px;
+    height:36px;
+  }
+}
