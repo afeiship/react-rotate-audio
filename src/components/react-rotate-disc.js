@@ -7,7 +7,7 @@ import classNames from 'classnames';
 import noop from 'noop';
 import objectAssign from 'object-assign';
 
-export default class extends Component{
+export default class extends Component {
   /*===properties start===*/
   static propTypes = {
     className: PropTypes.string,
@@ -29,7 +29,7 @@ export default class extends Component{
   }
 
   componentDidMount(){
-    this.setState({ paused: this.paused });
+    this.sync();
   }
 
   action(inAction){
@@ -37,10 +37,14 @@ export default class extends Component{
     audio[inAction]();
   }
 
-  _onClick = e => {
-    const { audio } = this.refs;
-    this.paused ? audio.play() : audio.pause();
+  sync(){
     this.setState({ paused: this.paused });
+  }
+
+  _onClick = e => {
+    const action = this.paused ? 'play' : 'pause';
+    this.action( action );
+    this.sync();
   };
 
   render() {

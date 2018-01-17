@@ -12,20 +12,21 @@
 }
 
 .react-rotate-disc{
+  font-size: 10px;
   display: inline-block;
   -webkit-transform: rotate(360deg);
-
 
   &[data-rotation=true]{
     animation-fill-mode: both;
     animation: rotation 3s linear infinite;
   }
+
   &[data-rotation=false]{
   }
 
   &-icon{
     vertical-align: top;
-    width:36px;
-    height:36px;
+    width:3.6em;
+    height:3.6em;
   }
 }
