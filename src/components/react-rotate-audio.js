@@ -51,14 +51,14 @@ export default class extends Component {
     const { icon, audio , className, ...props } = this.props;
     const { paused } = this.state;
     return (
-      <button onClick={ this._onClick } className={ classNames('react-rotate-audio', className ) } data-rotation={!paused}>
+      <span onClick={ this._onClick } className={ classNames('react-rotate-audio', className ) } data-rotation={!paused}>
         <audio
           ref="audio"
           className="react-rotate-audio-audio" src={audio}>
           Your browser not support audio.
         </audio>
         <img className="react-rotate-audio-icon" src={icon} />
-      </button>
+      </span>
     )
   }
 }
