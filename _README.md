@@ -1,5 +1,5 @@
-# react-rotate-disc
-> A rotate disc icon for react.
+# react-rotate-audio
+> A rotate audio icon for react.
 
 
 ## properties:

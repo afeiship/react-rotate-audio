@@ -3,8 +3,8 @@ import ReactRotateDisc from './main';
 
 /*===example start===*/
 
-// install: npm install afeiship/react-rotate-disc --save
-// import : import ReactRotateDisc from 'react-rotate-disc'
+// install: npm install afeiship/react-rotate-audio --save
+// import : import ReactRotateDisc from 'react-rotate-audio'
 
 class App extends React.Component{
   state = {
@@ -19,7 +19,7 @@ class App extends React.Component{
 
   render(){
     return (
-      <div className="hello-react-rotate-disc">
+      <div className="hello-react-rotate-audio">
         <ReactRotateDisc
           ref='rc'
           audio='http://118.118.218.6/mp3.9ku.com/mp3/416/415641.mp3'

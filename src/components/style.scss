@@ -6,12 +6,16 @@
   50% {
     transform:rotate(180deg);
   }
+
   100% {
     transform: translateX(360deg);
   }
 }
 
-.react-rotate-disc{
+.react-rotate-audio{
+  outline: none;
+  background: none;
+  border: none;
   font-size: 10px;
   display: inline-block;
   -webkit-transform: rotate(360deg);
@@ -22,6 +26,7 @@
   }
 
   &[data-rotation=false]{
+    // codes
   }
 
   &-icon{

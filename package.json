@@ -1,30 +1,30 @@
 {
-  "name": "react-rotate-disc",
+  "name": "react-rotate-audio",
   "version": "0.1.0",
-  "description": "A rotate disc icon for react.",
+  "description": "A rotate audio icon for react.",
   "author": "afeiship <1290657123@qq.com>",
   "keywords": [
     "components",
-    "react-rotate-disc",
+    "react-rotate-audio",
     "ui",
     "theme"
   ],
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afeiship/react-rotate-disc.git"
+    "url": "git+https://github.com/afeiship/react-rotate-audio.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/afeiship/react-rotate-disc/issues"
+    "url": "https://github.com/afeiship/react-rotate-audio/issues"
   },
-  "homepage": "https://github.com/afeiship/react-rotate-disc",
+  "homepage": "https://github.com/afeiship/react-rotate-audio",
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "docs": "node build/auto-readme.js"
   },
-  "main": "./dist/react-rotate-disc.js",
+  "main": "./dist/react-rotate-audio.js",
   "devDependencies": {
     "autoprefixer": "^6.4.0",
     "autoprefixer-loader": "^3.2.0",

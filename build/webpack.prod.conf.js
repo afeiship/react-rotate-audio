@@ -9,7 +9,7 @@ base.entry = {
 base.output = {
   path: config.build.assetsRoot,
   publicPath: config.build.assetsPublicPath,
-  filename: 'react-rotate-disc.js',
+  filename: 'react-rotate-audio.js',
   library: 'ReactRotateDisc',
   libraryTarget: 'umd'
 }
